@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <script src="/JS/script.js"></script>
+    <!-- Menu -->
+     <div class="headerContainer">
+        <header>
+            <div class = "logo">
+                <a href="#">D<span>F</span></a>
+            </div> 
+            <nav id="nav">
+                <ul id ="menu">
+                    <li><a href="#home" onclick="select()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <!-- <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li> -->                  
+                    <!-- <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li> -->
+                    <li><a href="#contact" onclick="select()">CONTACT ME</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <div class="perfil">
+            <div class="fotoPerfil">
+                <img src="Images/image.jpg" alt="">
+            </div>
+            <h1>DANIEL FUENTES</h1>
+            <h2>System engineer in progress</h2>
+            <div class="socialMedia">
+                <a href="https://www.instagram.com/dan_ensun04/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/DanielF90665373"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/Soulho?tab=overview&from=2023-07-01&to=2023-07-23"><i class="fa-brands fa-github"></i></i></a>
+                <a href="https://www.linkedin.com/in/daniel-fuentes-ensuncho-157283285/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:danfuentes04@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Me-->
+    <section id="aboutme" class="aboutme">
+        <div class="parrafo">
+            <h2>About me</h2>
+            <p><span>Hi, I'm Daniel Fuentes.</span>I am a student of Systems Engineering at the University of Los Andes. I am in the process of becoming a full-stack  
+                and apps developer. I am a fully dedicated and disciplined person when it comes to something that interests me. I always put forth my maximum effort in 
+                what I am doing to achieve a perfect result. However, I also believe in trial and error. Failing is necessary for learning 
+                and improvement. The important thing is to overcome failure and challenges, not to dwell on them.</p>
+
+            <div class="datosPersonales">
+                <div class="col">
+                    <h3>Personal info</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            01-12-2004
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +57 318 570 7059
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            danfuentes04@gmail.com
+                        </li>
+                        <li>
+                            <strong>Residency</strong>
+                            Bogotá, Colombia
+                        </li>
+                    </ul>
+                    <h4 id="phrase">Never stop trying. If you focus, you may achieve it.</h4>
+                </div>
+
+                <div class="col">
+                    <h3>Likes</h3>
+                    <div class="contenedorLikes">
+                        <div class="likes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-coins"></i>
+                            <span>FINANCE</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-utensils"></i>
+                            <span>FOOD</span>
+                        </div>
+                        <div class="likes" id="psi">
+                            <strong><span>&#968;</span></strong>
+                            <span>PSYCOLOGY</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="likes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+                Para descargar hoja de vida
+                <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                </button>
+            -->       
+        </div>
+    </section>
+    
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="mainSkills">
+            <h2>Skills</h2>
+            <div class="liSkills">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C & C++</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Leadership</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Emocional Intelligence</span>
+                        <div class="barraSkill">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contentContact">
+            <h2>Contact</h2>
+                <div class="form">
+                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Topic">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Description"></textarea>
+                    <button>
+                        Send request <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>    
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="socialMedia">
+            <a href="https://www.instagram.com/dan_ensun04/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/DanielF90665373"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/Soulho?tab=overview&from=2023-07-01&to=2023-07-23"><i class="fa-brands fa-github"></i></i></a>
+            <a href="https://www.linkedin.com/in/daniel-fuentes-ensuncho-157283285/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:danfuentes04@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="copy">
+            <p>© 2023 Copyright</p>
+        </div>
+    </footer>
+</body>
+</html>
