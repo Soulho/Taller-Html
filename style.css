@@ -287,8 +287,8 @@ html{
     line-height: 40px;
     text-align: center;
     top: -17px;
-    right: -15px;
-    font-size: 14px;
+    right: 5px;
+    font-size: 12px;
 }
 .skills .skill .python{
     width: 0%;
@@ -370,6 +370,7 @@ html{
     0%{width: 0%;}
     100%{width: 85%;}
 }
+
 /* Contact */
 .contact{
     background-image: url(Images/contact_bg.png);
